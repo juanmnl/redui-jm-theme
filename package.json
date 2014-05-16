@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git://github.com/juanmnl/redui-jm-theme.git"
   },
+  "engines": {"atom": ">=0.50.0"},
   "keywords": [
     "atom",
     "syntax",
