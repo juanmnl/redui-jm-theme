@@ -1,12 +1,14 @@
 {
   "name": "redui-jm-syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A nice readable syntax theme for atom and the redeye-ui theme",
   "repository": {
     "type": "git",
     "url": "git://github.com/juanmnl/redui-jm-theme.git"
   },
-  "engines": {"atom": ">=0.50.0"},
+  "engines": {
+    "atom": ">=0.50.0"
+  },
   "keywords": [
     "atom",
     "syntax",
