@@ -1,5 +1,6 @@
 {
   "name": "redui-jm-syntax",
+  "theme": "syntax",
   "version": "0.3.0",
   "description": "A nice readable syntax theme for atom and the redeye-ui theme",
   "repository": {
