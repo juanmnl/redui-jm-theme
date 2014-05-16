@@ -1,8 +1,8 @@
 # Redui-jm Syntax Theme
 
-A nice readable syntax theme for atom
+A nice readable syntax theme for atom and the redeye-ui theme
 
-## Screenshot
+## Screen
 
 ![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/screenshot.png)
 
