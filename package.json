@@ -1,0 +1,21 @@
+{
+  "name": "redui-jm-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "A syntax theme inspired by theme called Peacock, for the red-ui theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanmnl/redui-jm-theme"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.94.0"
+  },
+  "readme": "# Redui-jm Syntax Theme\n\nA nice readable syntax theme for the red-ui style. (recommended font: SourcecodePro)\n\n## Screenshot\n\n![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/screenshot.png)\n\n\nOpen Atom Preferences, select Themes > Search for `redui-jm-syntax`,\nthen Install.\n\n*You may need to reload Atom `Cmd+R` in between these steps.*\nActivate the theme by selecting the Themes section of Preferences.\n\n\n## Contributing\n\nIf you find what you would consider a bug:\n\n- Check out the issues on GitHub to see if anyone else has reported the same issue.\n- If you don't see anything, create an issue with information on how to reproduce it.\n\nIf you want to contribute an enhancement or a fix:\n\n- Fork the project on GitHub.\n- Make your changes.\n- Commit the changes without making changes to any other files that aren't related to your enhancement or fix.\n- Send a pull request.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/juanmnl/redui-jm-theme/issues"
+  },
+  "homepage": "https://github.com/juanmnl/redui-jm-theme",
+  "_id": "redui-jm-syntax@0.0.1",
+}
