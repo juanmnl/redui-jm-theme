@@ -1,6 +1,6 @@
 # Redui-jm Syntax Theme
 
-A nice readable syntax theme for atom and the redeye-ui theme
+A soft readable syntax theme for Atom and the ONE DARK UI theme
 
 ## Screen
 
