@@ -1,13 +1,13 @@
 @import "syntax-variables";
 
 :host, .atom-text-editor {
-  background-color: @syntax-background-color;
   color: @syntax-text-color;
+  background-color: @syntax-background-color;
 }
 
 :host, .atom-text-editor {
-  background-color: @syntax-background-color;
   color: @syntax-text-color;
+  background-color: @syntax-background-color;
 
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
@@ -22,13 +22,13 @@
   }
 
   .gutter {
-    background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
+    background-color: @syntax-gutter-background-color;
 
     .line-number {
       &.cursor-line {
-        background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
+        background-color: @syntax-gutter-background-color-selected;
       }
 
       &.cursor-line-no-selection {
@@ -53,7 +53,8 @@
   }
 
   .selection .region {
-    background-color: @syntax-selection-color;
+    color: #333;
+    background-color: @syntax-cursor-color;
   }
 }
 
@@ -73,7 +74,6 @@
 .entity {
   &.name.type {
     color: @light-orange;
-
   }
 
   &.other.inherited-class {
@@ -138,8 +138,8 @@
 }
 
 .invalid.illegal {
-  background-color: @red;
   color: @syntax-background-color;
+  background-color: @red;
 }
 
 .string {
@@ -178,20 +178,19 @@
     }
 
     &.bold {
-      color: @light-orange;
       font-style: bold;
+      color: @light-orange;
     }
 
     &.italic {
-      color: @blue;
       font-style: italic;
+      color: @blue;
     }
   }
 
   &.section.embedded {
     color: darken(@red, 10%);
   }
-
 }
 
 .support {
@@ -199,7 +198,7 @@
     color: @light-orange;
   }
 
-  &.function  {
+  &.function {
     color: lighten(@blue, 15%);
 
     &.any-method {
@@ -252,8 +251,8 @@
   }
 
   &.separator {
-    background-color: @gray;
     color: @syntax-text-color;
+    background-color: @gray;
   }
 }
 
@@ -263,8 +262,8 @@
 
 .markup {
   &.bold {
-    color: @orange;
     font-style: bold;
+    color: @orange;
   }
 
   &.changed {
@@ -276,8 +275,8 @@
   }
 
   &.italic {
-    color: @purple;
     font-style: italic;
+    color: @purple;
   }
 
   &.heading .punctuation.definition.heading {
