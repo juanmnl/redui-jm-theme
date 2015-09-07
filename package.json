@@ -1,7 +1,7 @@
 {
   "name": "redui-jm-syntax",
   "theme": "syntax",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "A soft, coffee infused readable syntax theme",
   "repository": {
     "type": "git",
