@@ -125,7 +125,7 @@
 }
 
 .variable {
-  color: lighten(@orange, 5%);
+  color: @red;
 
   &.interpolation {
     color: darken(@orange, 10%);
@@ -137,6 +137,10 @@
 
   &.other.property.static {
     color: @blue;
+  }
+
+  &.language.this.js {
+    color: @this;
   }
 }
 
@@ -192,7 +196,7 @@
   }
 
   &.section.embedded {
-    color: darken(@red, 10%);
+    color: @whiter;
   }
 }
 
@@ -256,6 +260,10 @@
   &.separator {
     color: @syntax-text-color;
     background-color: @gray;
+  }
+
+  &.property.object.js > .variable.other.property.js {
+    color: @orange;
   }
 }
 
