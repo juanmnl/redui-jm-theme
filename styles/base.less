@@ -55,6 +55,12 @@
   .selection .region {
     background-color: @syntax-selection-color;
   }
+  .bracket-matcher .region {
+    z-index: 100;
+    padding: 2px;
+    background-color: rgba(255,255,255, .2);
+    border: 1px solid @punctuation;
+  }
 }
 
 .atom-text-editor .search-results .marker .region {
@@ -84,11 +90,11 @@
   color: @blue;
 
   &.control {
-    color: @blue;
+    color: @keyword;
   }
 
   &.operator {
-    color: lighten(@orange, 10%);
+    color: @whiter;
   }
 
   &.other.special-method {
@@ -125,7 +131,7 @@
 }
 
 .variable {
-  color: @red;
+  color: @whiter;
 
   &.interpolation {
     color: darken(@orange, 10%);
@@ -169,14 +175,14 @@
 .punctuation {
   &.definition {
     &.comment {
-      color: @light-gray;
+      color: @punctuation;
     }
 
     &.string,
     &.variable,
     &.parameters,
     &.array {
-      color: @syntax-text-color;
+      color: @punctuation;
     }
 
     &.heading,
@@ -216,11 +222,11 @@
 
 .entity {
   &.name.function {
-    color: @yellow;
+    color: @nameFunc;
   }
 
   &.name.class, &.name.type.class {
-    color: @orange;
+    color: @cacs;
   }
 
   &.name.section {
@@ -232,10 +238,10 @@
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @red;
 
     &.id {
-      color: @yellow;
+      color: @red;
     }
   }
 }
@@ -321,3 +327,5 @@
 .atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
+
+.meta .brace { font-weight: bold; }
