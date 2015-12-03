@@ -1,12 +1,20 @@
-# Redui-jm Syntax Theme
+# Redui-jm Syntax Theme :coffee:
 
-A nice aromatic and strong-flavored syntax theme for Atom and the ONE DARK UI theme  
+Your coffee is ready!!  
+
+A nice aromatic coffee infused syntax theme for Atom and the ONE DARK UI theme  
 :coffee: From the highlands of the Andes to your Atom editor :coffee:
 
 ## Screen
 
-![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/coffee.png)
+JSX/ES6 (babel)
+![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/coffee.png)  
 
+Scss  
+![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/scss.png)  
+
+Html
+![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/html.png)
 
 Open Atom Preferences > Install > Search *themes*: `redui-jm-syntax`,
 then Install.
