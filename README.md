@@ -1,3 +1,5 @@
+![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/logo.png)
+
 # Redui-jm Syntax Theme :coffee:
 
 Your coffee is ready!!  
