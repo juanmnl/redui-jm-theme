@@ -188,6 +188,7 @@
     &.array,
     &.dictionary {
       color: @punctuation;
+      font-weight: bold;
     }
 
     &.heading,
@@ -196,7 +197,7 @@
     }
 
     &.bold {
-      font-style: bold;
+      font-weight: bold;
       color: @light-orange;
     }
 
@@ -245,6 +246,7 @@
 
   &.other.attribute-name {
     color: @red;
+    font-weight: bold;
 
     &.id {
       color: @red;
@@ -275,7 +277,7 @@
   }
 
   &.property.object.js > .variable.other.property.js {
-    color: @punctuation;
+    color: @orange;
   }
 }
 
