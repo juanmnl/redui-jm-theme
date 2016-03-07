@@ -9,8 +9,10 @@ A nice aromatic coffee infused syntax theme for Atom and the ONE DARK UI theme
 
 ## Screen
 
+-- *Font: Fira Code* --
+
 JSX/ES6 (babel)
-![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/coffee.png)  
+![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/jsx.png)  
 
 Scss  
 ![Redui-jm screenshot](https://raw.githubusercontent.com/juanmnl/redui-jm-theme/master/scss.png)  
